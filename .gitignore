@@ -1,0 +1,13 @@
+dbt/target/
+dbt/dbt_modules/
+logs/
+.idea
+**/BQ_keys.json
+.DS_Store
+.vscode/
+# Local credentials
+keys/**
+
+# Python related
+__pycache__
+
