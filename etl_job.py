@@ -11,7 +11,6 @@ BIG_QUERY_CLIENT = bigquery_client()
 BQ_SETTINGS = QuerySettings()
 BQ_PROJECT_SETTINGS = ProjectSettings()
 
-
 def query_job_config(
     settings: QuerySettings
 ) -> job.QueryJobConfig:

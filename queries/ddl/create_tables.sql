@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS `funda-bi-dev`.`dbt_darya_adhoc`.`cows`
+CREATE TABLE IF NOT EXISTS `project_id`.`dataset`.`cows`
 	(
     CowUNID string,
     Sex string,
@@ -7,7 +7,7 @@ CREATE TABLE IF NOT EXISTS `funda-bi-dev`.`dbt_darya_adhoc`.`cows`
 	);
 
 
-CREATE TABLE IF NOT EXISTS `funda-bi-dev`.`dbt_darya_adhoc`.`cows_descendants`
+CREATE TABLE IF NOT EXISTS `project_id`.`dataset`.`cows_descendants`
 	(
     CowUNID string,
     Descendants string,

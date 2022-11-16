@@ -4,7 +4,7 @@ from pydantic import BaseSettings
 class QuerySettings(BaseSettings):
     """The settings for the query insertion operation"""
     allow_large_results: bool = True
-    destination: str = "funda-bi-dev.dbt_darya_adhoc.cows_descendants"
+    destination: str = "test_destination_table"
     use_legacy_sql: bool = False
     write_disposition: str = "WRITE_TRUNCATE"
 

@@ -1,7 +1,7 @@
 from google.cloud import bigquery
 from google.oauth2 import service_account
 
-from fact_cows_descendants import BQ_PROJECT_SETTINGS
+from etl_job import BQ_PROJECT_SETTINGS
 
 PROJECT_ID = BQ_PROJECT_SETTINGS.project_id
 PATH_TO_KEYS = "keys/bigquery/BQ_keys.json"
