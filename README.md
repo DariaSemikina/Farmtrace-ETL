@@ -21,6 +21,9 @@ There is still a room for improvement in different aspects:
 3. job orchestration and scheduler (Apache Airflow, Airbyte, Azure Databricks, etc.).
 4. containerization using Docker
 
+### Credentials
+Credentials read from a file named `BQ_keys.json`
+
 ## To run the application:
 
 ```bash
