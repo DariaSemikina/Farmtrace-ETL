@@ -1,7 +1,7 @@
 # farmtrace-assignment
 * extract Big Query source cows table 
 * calls SQL query that transforms the source table (2) according to the business logic 
-* loads the results (with overwrite rule) into BigQuery destination data mart ()
+* loads the results (with overwrite rule) into BigQuery destination data mart
 
 ## Business Requirements
 
