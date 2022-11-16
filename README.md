@@ -1,9 +1,9 @@
 # farmtrace-assignment
 
 ETL Python process: 
- Markup : * 1. extract Big Query source cows table 
-            2. call SQL query that transforms the source table (2) according to the business logic 
-            3. loads the results (with overwrite rule) into BigQuery destination data mart ()
+    1. extract Big Query source cows table 
+    2. call SQL query that transforms the source table (2) according to the business logic 
+    3. loads the results (with overwrite rule) into BigQuery destination data mart ()
 
 ## Business Requirements
 
