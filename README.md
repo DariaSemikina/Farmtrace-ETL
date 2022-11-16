@@ -14,7 +14,7 @@ You can use the file format of your choice. (TBD)
 one of our data marts, implemented on a relational db. The target table has the same structure as
 the file in the data lake and previous data can be overwritten. (DONE)
 
-Please take into account the solution was implemented using Google BigQuery as an alternative of Azure Redshift.
+Please take into account the solution was implemented using Google BigQuery as an alternative.
 There is still a room for improvement in different aspects: 
 1. unit tests (pytest could be used for that).
 2. the source/destination tables could be extended to have date field and partitioning. It could increase the speed for reading the data from cows table and the destination table could be also loaded incrementally.
