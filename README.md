@@ -1,5 +1,8 @@
 # farmtrace-assignment
-
+* Bullet list
+    * Nested bullet
+        * Sub-nested bullet etc
+* Bullet list item 2
 ETL Python process: 
     1. extract Big Query source cows table 
     2. call SQL query that transforms the source table (2) according to the business logic 
