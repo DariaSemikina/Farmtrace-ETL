@@ -5,12 +5,12 @@
 
 ## Business Requirements
 
-a. We need an ANSI SQL statement that will return all the cows together with all their lineal – direct
+* We need an ANSI SQL statement that will return all the cows together with all their lineal – direct
 descendants, showing also the depth of the relation (1-child, 2-grandchild etc.) Cows with no
 descendants will not be included in the result set. (DONE)
-b. The result set of the step (a) needs to be saved in our data lake. We need to use Python to do so.
+* The result set of the step (a) needs to be saved in our data lake. We need to use Python to do so.
 You can use the file format of your choice. (TBD)
-c. The file that has been created in step (b) will be the source of an ETL/ELT process that populates
+* The file that has been created in step (b) will be the source of an ETL/ELT process that populates
 one of our data marts, implemented on a relational db. The target table has the same structure as
 the file in the data lake and previous data can be overwritten. (DONE)
 
