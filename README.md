@@ -15,8 +15,11 @@ one of our data marts, implemented on a relational db. The target table has the 
 the file in the data lake and previous data can be overwritten. (DONE)
 
 Please take into account the solution was implemented using Google BigQuery as an alternative of Azure Redshift.
-There is still a room for improvement in different aspects: 1. unit tests (pytest could be used for that) 2. the source/destination tables could be extended to have date field and partitioning. It could increase the speed for reading the data from cows table and the destination table could be also loaded incrementally. 3. job orchestration and scheduler (Apache Airflow, Airbyte, Azure Databricks, etc.)
-works nicely with different services and 4. containerization using Docker
+There is still a room for improvement in different aspects: 
+1. unit tests (pytest could be used for that).
+2. the source/destination tables could be extended to have date field and partitioning. It could increase the speed for reading the data from cows table and the destination table could be also loaded incrementally.
+3. job orchestration and scheduler (Apache Airflow, Airbyte, Azure Databricks, etc.).
+4. containerization using Docker
 
 ## To run the application:
 
